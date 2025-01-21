@@ -138,6 +138,7 @@ function mouseReleased(){
   changing = false}}
 
 function setup() {
+  pixelDensity(1)
   for (let i = 0; i < playerCount; i++) {
     let p = new Particle(random(ww), random(wh))
     playerList.push(p)
